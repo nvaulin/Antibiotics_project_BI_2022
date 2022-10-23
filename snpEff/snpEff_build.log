@@ -1,0 +1,58 @@
+00:00:00 SnpEff version SnpEff 5.1d (build 2022-04-19 15:49), by Pablo Cingolani
+00:00:00 Command: 'build'
+00:00:00 Building database for 'k12'
+00:00:00 Reading configuration file 'snpEff.config'. Genome: 'k12'
+00:00:00 Reading config file: /media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/snpEff.config
+00:00:00 done
+00:00:00 Chromosome: 'NC_000913.3'	length: 4641652
+00:00:00 Create exons from CDS (if needed): 
+00:00:00 Exons created for 4315 transcripts.
+00:00:00 Deleting redundant exons (if needed): 
+00:00:00 	Total transcripts with deleted exons: 0
+00:00:00 Collapsing zero length introns (if needed): 
+.
+		0	00:00:00 	Total collapsed transcripts: 1
+00:00:00 		Adding genomic sequences to genes: 
+00:00:00 	Done (3796 sequences added).
+00:00:00 		Adding genomic sequences to exons: 
+00:00:00 	Done (4336 sequences added, 0 ignored).
+00:00:00 Finishing up genome
+00:00:00 Adjusting transcripts: 
+00:00:00 Adjusting genes: 
+.00:00:00 Adjusting chromosomes lengths: 
+00:00:00 Ranking exons: 
+00:00:00 Create UTRs from CDS (if needed): 
+00:00:00 Remove empty chromosomes: 
+00:00:00 Marking as 'coding' from CDS information: 
+00:00:00 Done: 17 transcripts marked
+00:00:00 
+00:00:00 Caracterizing exons by splicing (stage 1) : 
+....
+00:00:00 Caracterizing exons by splicing (stage 2) : 
+....00:00:00 done.
+00:00:00 [Optional] Rare amino acid annotations
+WARNING_FILE_NOT_FOUND: Rare Amino Acid analysis: Cannot read protein sequence file '/media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/./data/k12/protein.fa', nothing done.
+00:00:00 CDS check: GenBank file format, skipping
+
+00:00:00 Protein check file: '/media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/./data/k12/genes.gbk'
+
+00:00:00 Checking database using protein sequences
+00:00:00 Comparing Proteins...
+	Labels:
+		'+' : OK
+		'.' : Missing
+		'*' : Error
+00:00:01 
+
+00:00:01 Saving database
+00:00:02 Saving sequences for chromosome 'NC_000913.3' to file '/media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/./data/k12/sequence.NC_000913.3.bin'
+00:00:02 [Optional] Reading regulation elements: GFF
+WARNING_FILE_NOT_FOUND: Cannot read optional regulation file '/media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/./data/k12/regulation.gff', nothing done.
+00:00:02 [Optional] Reading regulation elements: BED 
+00:00:02 Cannot find optional regulation dir '/media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/./data/k12/regulation.bed/', nothing done.
+00:00:02 [Optional] Reading motifs: GFF
+WARNING_FILE_NOT_FOUND: Cannot open PWMs file /media/nvaulin/Winux/BI/Projects/Prj1_Antibiotics/Antibiotics_project_BI_2022/snpEff/./data/k12/pwms.bin. Nothing done
+00:00:02 Done
+00:00:02 Logging
+00:00:03 Checking for updates...
+00:00:03 Done.
