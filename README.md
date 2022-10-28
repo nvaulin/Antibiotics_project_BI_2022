@@ -1,6 +1,6 @@
 # Antibiotics_project_BI_2022
 
-> *by* Nikita Vaulin, Skoltech  and Bukreeva Anastasia<br />
+> *by* Nikita Vaulin and Bukreeva Anastasia<br />
 > Nikita.Vaulin@skoltech.ru
 
 
